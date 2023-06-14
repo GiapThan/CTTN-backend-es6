@@ -1,9 +1,12 @@
-const express = require('express');
-const connectDB = require('./config/db');
-const routes = require('./routes');
-const cors = require('cors');
-const cookieParser = require('cookie-parser');
-require('dotenv').config();
+import express from 'express';
+import cors from 'cors';
+import cookieParser from 'cookie-parser';
+import dotenv from 'dotenv';
+
+import connectDB from './config/db';
+import routes from './routes';
+
+dotenv.config();
 
 const app = express();
 

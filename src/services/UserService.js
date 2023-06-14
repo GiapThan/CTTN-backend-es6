@@ -24,6 +24,7 @@ const UserSevice = {
             data: {
               mssv: newUser.mssv,
               name: newUser.name,
+              class: newUser.class,
               roleId: newUser.roleId,
             },
           });
@@ -52,6 +53,7 @@ const UserSevice = {
               data: {
                 mssv: user.mssv,
                 name: user.name,
+                class: user.class,
                 roleId: user.roleId,
               },
             });
@@ -64,6 +66,7 @@ const UserSevice = {
             data: {
               mssv: user.mssv,
               name: user.name,
+              class: user.class,
               roleId: user.roleId,
             },
           });

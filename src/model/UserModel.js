@@ -5,6 +5,7 @@ const UserModel = new Schema(
   {
     mssv: { type: String },
     name: { type: String },
+    class: { type: String, default: '' },
     password: { type: String },
     roleId: { type: String, default: '01' },
   },
