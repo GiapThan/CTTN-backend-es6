@@ -8,5 +8,8 @@ route.get('/log-out', UserController.LogOut);
 route.get('/refresh-token', UserController.RefreshToken);
 route.get('/delete', UserController.delete);
 route.get('/all', UserController.all);
+route.get('/demo', (req, res) => {
+  res.json({ w: '123' });
+});
 
 module.exports = route;
